@@ -1,0 +1,48 @@
+$white: #ffffff;
+$dark-green: #3C4A3F;
+$lime-green: #8DD69F;
+$pale-green: #9EAFA2;
+$light-blue: #55D3FF;
+$mid-blue: #009DCB;
+
+body, button {
+  font-family: "Times New Roman", Times, serif;
+}
+.nav-bar {
+  background-color: $white;
+  border-bottom: 2px solid $lime-green;
+}
+
+i {
+  padding: 15px;
+  font-size: 40px;
+  color: $dark-green;
+  display: inline-block;
+}
+
+.nav {
+  margin: 0px;
+  padding: 0px;
+}
+
+.item {
+  border: 0px;
+  color: $dark-green;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 0px;
+  cursor: pointer;
+  border-radius: 0px;
+  margin-left: 0px;
+  outline: none;
+}
+
+.navlogo {
+  font-size: 25px;
+  color: $dark-green;
+}
+
+
