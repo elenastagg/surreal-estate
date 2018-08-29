@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Navbar from './navbar';
 import AddProperty from './addproperty';
 import Properties from './properties';
 import { Switch, Route } from 'react-router-dom';
 
 const App = () => (
-  <div>
+  <Fragment>
     <Navbar />
     <Switch>
       <Route exact path="/" component={Properties} />
       <Route exact path="/add-property" component={AddProperty} />
     </Switch>
-  </div>
+  </Fragment>
 );
 
 export default App;

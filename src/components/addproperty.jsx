@@ -177,3 +177,7 @@ class AddProperty extends React.Component {
 }
 
 export default AddProperty;
+
+const name = 'elena';
+
+const person = { name }
